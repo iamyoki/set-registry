@@ -1,7 +1,16 @@
 {
   "name": "set-registry",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "author": "Yoki Yu <yokiyuqian@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
