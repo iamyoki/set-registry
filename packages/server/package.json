@@ -2,5 +2,9 @@
   "name": "@set-registry/server",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "gitHead": "52afaa04092b63baaf141294c9fdfc8a65afed62"
 }
