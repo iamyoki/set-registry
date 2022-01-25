@@ -1,5 +1,6 @@
 {
-  "name": "set-registry",
+  "name": "root",
+  "private": true,
   "version": "0.0.0",
   "main": "index.js",
   "author": "Yoki Yu <yokiyuqian@gmail.com>",
