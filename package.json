@@ -9,6 +9,7 @@
     "packages/*"
   ],
   "scripts": {
+    "prepare": "husky install",
     "postinstall": "preconstruct dev",
     "bootstrap": "preconstruct init && yarn",
     "build:web": "yarn workspace @set-registry/web run build",
@@ -20,13 +21,17 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "@preconstruct/cli": "^2.1.5",
     "@qhlab/eslint-plugin": "^1.9.0",
     "eslint": "^8.7.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^7.0.0",
     "lerna": "^4.0.0",
+    "lint-staged": "^12.3.1",
     "typescript": "^4.5.5"
   },
   "preconstruct": {
