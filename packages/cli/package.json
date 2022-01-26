@@ -1,7 +1,11 @@
 {
   "name": "@set-registry/cli",
   "version": "0.0.3",
-  "main": "index.js",
+  "main": "dist/set-registry-cli.cjs.js",
+  "module": "dist/set-registry-cli.esm.js",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },

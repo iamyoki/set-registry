@@ -1,7 +1,11 @@
 {
   "name": "@set-registry/server",
   "version": "0.0.3",
-  "main": "index.js",
+  "main": "dist/set-registry-server.cjs.js",
+  "module": "dist/set-registry-server.esm.js",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },

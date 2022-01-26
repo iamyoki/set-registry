@@ -1,7 +1,11 @@
 {
   "name": "@set-registry/core",
   "version": "0.0.3",
-  "main": "index.js",
+  "main": "dist/set-registry-core.cjs.js",
+  "module": "dist/set-registry-core.esm.js",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },

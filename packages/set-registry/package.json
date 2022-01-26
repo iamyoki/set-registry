@@ -1,6 +1,10 @@
 {
   "name": "set-registry",
   "version": "0.0.3",
-  "main": "index.js",
+  "main": "dist/set-registry.cjs.js",
+  "module": "dist/set-registry.esm.js",
+  "files": [
+    "dist"
+  ],
   "license": "MIT"
 }
