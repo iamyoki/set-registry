@@ -14,6 +14,8 @@
     "bootstrap": "preconstruct init && yarn",
     "build:web": "yarn workspace @set-registry/web run build",
     "build": "preconstruct build && yarn build:web",
+    "dev:web": "yarn workspace @set-registry/web run start",
+    "dev": "yarn && yarn dev:web",
     "lint": "eslint packages/**/src --ext .ts,.tsx",
     "release": "lerna publish"
   },
