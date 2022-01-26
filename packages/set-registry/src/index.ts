@@ -1,1 +1,1 @@
-export const setRegistry = 'set-registry'
+export const setRegistry = 'set-registry';
